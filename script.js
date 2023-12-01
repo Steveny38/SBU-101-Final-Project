@@ -26,7 +26,7 @@ function checkCurrentPage (){
     const currentURL = window.location.href;
 
     for(var i = 0; i < DOMSelectors.alinks.length; i++){
-        
+        console.log(currentURL, DOMSelectors.alinks[i].href)
         if(DOMSelectors.alinks[i].href == currentURL){
             DOMSelectors.links[i].classList.add("active")
         } else{

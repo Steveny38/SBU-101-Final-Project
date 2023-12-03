@@ -63,3 +63,32 @@ a:visited {
     color: inherit;
     cursor: auto;
 }
+
+.title{
+    text-align: center;
+    font-size: 7rem;
+    color: #4171b8;
+}
+
+.cites{
+    font-size: 3rem;
+    width: 70vw;
+    margin: auto;
+    margin-top: 5rem;
+    color: #4171b8;
+}
+
+h3{
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 1s;
+
+}
+
+h3.active{
+    opacity: 1;
+    transform: translateX(0);
+}
+
